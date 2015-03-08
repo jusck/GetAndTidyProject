@@ -1,7 +1,7 @@
 ## run_analysis.R
 
 ## Move into the subdirectory containing all the files supplied from source
-setwd("data-for-r/")
+## setwd("data-for-r/")
 
 ## The various files supplied are read into Data Frames 
 subject_train<-read.table("subject_train.txt")
