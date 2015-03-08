@@ -85,3 +85,7 @@ result<-select(result,-activitycode)
 ## Finally perform a means on all the feature variables for each activity and subject - this is stored in 'analysis'
 
 analysis<-summarise_each(group_by(result,activity,subject),"mean",3:82)
+
+## Output this result to output.txt for upload to Coursera and github.
+
+write.table(analysis,"output.txt",row.names=FALSE)

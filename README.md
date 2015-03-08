@@ -4,6 +4,19 @@ author: "Justin Bevan"
 date: "March 7, 2015"
 ---
 
+The files contained here represent the results of the completion of the Project for the Data Science - Getting and Tidying
+Data Module hosted by Coursera.
+
+The files are:
+
+        README.md       - This file explaing the files and background of the project
+        CodeBook.md     - A file containing the location of source data, the steps involved and the 
+                                variables in the resultant data sets
+        run_Analysis.R  - This is the code for R that reads the Samsung data from the working directory and 
+                                processes as per the project requirements detailed below.
+        output.txt      - This file contains the final result of the analysis as a text file. 
+
+
 Background for the project from the Coursera Project Assignment Description Page:
 
         The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is 
